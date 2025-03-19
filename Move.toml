@@ -1,0 +1,15 @@
+[package]
+name = "copyright"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x83e36b4d5573f0d0ff925ccfddbfcb203e5e7f200d05ef43099cb06b18f5c51b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
